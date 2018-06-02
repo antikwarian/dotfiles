@@ -1,5 +1,8 @@
 #!/bin/bash
 
+## (cc) marcio rps AT gmail.com
+## This script is based on the configuration found at https://wiki.archlinux.org/index.php/rsync
+
 SRC="/home/logan/test/"
 SNAP="/home/logan/snaps"
 OPTS="-rltgoi --delay-updates --delete --chmod=a-w"
