@@ -1,0 +1,8 @@
+[Unit]
+Description= 'Backlava' - A Simple, Yet Sophisticated Backup Service
+
+[Service]
+Type=simple
+ExecStart=/ust/local/bin/backlava.sh
+User=root
+

@@ -1,0 +1,11 @@
+[Unit]
+Description=A simple backup utility run through systemd
+Requires=backlava.service
+
+[Timer]
+OnUnitActiveSec=1
+OnCalendar=*-*-* 18:00:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target
